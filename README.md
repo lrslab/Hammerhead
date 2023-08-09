@@ -21,7 +21,7 @@ conda install -c bioconda -c conda-forge minimap2 samtools
 
 The help for `hammerhead`:
 
-```shell
+```
 python hammerhead.py -h
 usage: hammerhead.py [-h] --ref  --read  [--cpu] [--cut] [--min_depth] [--min_depth_strand]
 
@@ -39,7 +39,7 @@ optional arguments:
 
 `hammerhead` can be run using simple command:
 
-```shell
+```
 python hammerhead.py -ref <reference> -read <input_fastq>
 ```
 
