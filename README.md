@@ -18,6 +18,11 @@ conda install -c bioconda -c conda-forge minimap2 samtools
 
 
 ## General usage
+`hammerhead` can be run using simple command:
+
+```
+python hammerhead.py -ref <reference> -read <input_fastq>
+```
 
 The help for `hammerhead`:
 
@@ -36,13 +41,6 @@ optional arguments:
   --min_depth          The minimum depth. (default:50)
   --min_depth_strand   The minimum depth for forward strand and reverse strand. (default:25)
 ```
-
-`hammerhead` can be run using simple command:
-
-```
-python hammerhead.py -ref <reference> -read <input_fastq>
-```
-
 
 
 ## Results
