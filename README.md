@@ -24,11 +24,11 @@ conda install -c bioconda -c conda-forge minimap2 samtools
 python mokarran.py -ref <reference> -read <input_fastq>
 ```
 
-The help for `hammerhead`:
+The help for `mokarran`:
 
 ```
-python hammerhead.py -h
-usage: hammerhead.py [-h] --ref  --read  [--cpu] [--cut] [--min_depth] [--min_depth_strand]
+python mokarran.py -h
+usage: mokarran.py [-h] --ref  --read  [--cpu] [--cut] [--min_depth] [--min_depth_strand]
 
 A tool help to find the potential modification sites
 
