@@ -1,4 +1,4 @@
-# Hammerhead
+# Mokarran
 This project is designed to find the potential modification sites.
 
 
@@ -18,10 +18,10 @@ conda install -c bioconda -c conda-forge minimap2 samtools
 
 
 ## General usage
-`hammerhead` can be run using simple command:
+`mokarran` can be run using simple command:
 
 ```
-python hammerhead.py -ref <reference> -read <input_fastq>
+python mokarran.py -ref <reference> -read <input_fastq>
 ```
 
 The help for `hammerhead`:
@@ -45,7 +45,7 @@ optional arguments:
 
 ## Results
 
-The results file for `hammerhead`:
+The results file for `mokarran`:
 
 ```
 ├── test.fastq
