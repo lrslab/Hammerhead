@@ -5,7 +5,7 @@ This project is designed to find the potential modification sites.
 
 ## Dependence
 
-To use this software, you'll need to install additional tools for read processing, including samtools and minimap2. The following commands can help you install both the software package and its dependencies.
+To use this software, you'll need to install additional tools for read processing, including samtools and minimap2. The following commands can help you install dependencies.
 
 ```shell
 # test verison for dependences
