@@ -79,3 +79,5 @@ The results file for `hammerhead`:
 
 ​		A,T,G,C,a,t,g,c  is the number of reads mapped as the  A/T/G/C in forward strand and T/A/C/G in reverse starnd.
 
+**All rights reserved.**
+
