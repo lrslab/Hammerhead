@@ -98,9 +98,13 @@ To show the potential of Hammerhead to identify the modifications in the bacteri
 
 
 
+
+
 ![alt text](figure_demo/Demo_2.png)
 
 The distribution of difference index for sites in *E. coli* genome. The WGA reads were used as a negative control due to the lack of inherent methylation information. Based on the background noise of WGA reads, the sites with a difference index over 0.35 were regarded as potential modification sites.
+
+
 
 
 
