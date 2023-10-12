@@ -63,19 +63,15 @@ optional arguments:
 The results file for `Hammerhead`:
 
 ```
-├── test.fastq
-├── ref.fasta
 ├── mapping.mpileup.txt
 ├── mapping.sort.bam
 ├── potential_modification_site_detail.bed
 └── potential_modification_site_detail.txt
 ```
 
-- `test.fastq` - input fastq reads
+- `mapping.mpileup.txt` - the mpileup file
 
-- `ref.fasta` - reference
-
-- `mapping.sort.bam` - aligned bam file
+- `mapping.sort.bam` - the aligned bam file
 
 - `potential_modification_site_detail.bed` - the position for potential modification sites
 
