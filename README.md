@@ -34,7 +34,7 @@ conda install -c bioconda -c conda-forge minimap2 samtools
 `Hammerhead` can be run using a simple command:
 
 ```
-python hammerhead.py -ref <reference> -read <input_fastq>
+python hammerhead.py --ref <reference> --read <input_fastq>
 ```
 
 The help for `Hammerhead`:
