@@ -1,11 +1,17 @@
 # Hammerhead
-This project is designed to find the potential modification sites.
+This project is designed to find potential modification sites.
+
+
+
+## Workflow
+
+![alt text](figure_demo/Demo_1.png)
 
 
 
 ## Dependence
 
-To use this software, you'll need to install additional tools for read processing, including samtools and minimap2. The following commands can help you install dependencies.
+To use this script, you'll need to install additional tools for read processing, including samtools and minimap2. The following commands can help you install dependencies.
 
 ```shell
 # test verison for dependences
@@ -18,7 +24,8 @@ conda install -c bioconda -c conda-forge minimap2 samtools
 
 
 ## General usage
-`hammerhead` can be run using simple command:
+
+`hammerhead` can be run using a simple command:
 
 ```
 python hammerhead.py -ref <reference> -read <input_fastq>
@@ -73,11 +80,10 @@ The results file for `hammerhead`:
   contig_2	2837	0.475	0.474	0.029	0.413	0.033	37,1,40,0,0,5,112,4
   ```
 
-​		MAE is the differnece index for each site.
+​		MAE is the difference index for each site.
 
-​		the absA/T/G/C is the absolute difference for A/T/G/C base.
+​		the abs A/T/G/C is the absolute value of difference for A/T/G/C base.
 
-​		A,T,G,C,a,t,g,c  is the number of reads mapped as the  A/T/G/C in forward strand and T/A/C/G in reverse starnd.
+​		A, T, G, C, a, t, g, c  is the number of reads mapped as the  A/T/G/C in the forward strand and T/A/C/G in the reverse strand.
 
 **All rights reserved.**
-
