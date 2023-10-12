@@ -110,7 +110,7 @@ The motif of CCWGG and GATC was enriched using the sequence near these potential
 
 
 
-**Note:** Two datasets are available at the here. Both datasets were basecalled using the modification aware model, which is available in the directory of `modification_aware_basecalling_model`.
+**Note:** Two datasets are available at the [here](https://figshare.com/articles/dataset/_i_E_coli_i_datasets/24298663). Both datasets were basecalled using the modification aware model, which is available in the directory of `modification_aware_basecalling_model`.
 
 
 
