@@ -74,7 +74,7 @@ def calculate_distance(chrom, pos, string, cutoff):
 		pass
 
 def get_direction_info(cutoff):
-	header = "Chr\tPos\tMAE\tabsA\tabsT\tabsG\tabsC\tA,T,G,C,a,t,g,c"
+	header = "Chr\tPos\tDifference_index\tDif_A\tDif_T\tDif_G\tDif_C\tA,T,G,C,a,t,g,c"
 	with open("potential_modification_site_detail.txt", "w") as fo:
 		fbed =  open("potential_modification_site_detail.bed", "w")
 		fo.write(header + "\n")
