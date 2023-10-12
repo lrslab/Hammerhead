@@ -11,6 +11,8 @@ This project is designed to find potential modification sites.
 
 The Hammerhead was developed specifically to identify potential modification sites using Nanopore R10.4.1 simplex reads. It leverages the strand-specific error pattern observed in these reads to detect modifications.
 
+
+
 The pipeline utilizes a self-defined metric called the difference index to quantify the discrepancy in observed accuracy between the forward and reverse strands at individual sites. This difference index serves as a measure of the potential modification probability. A higher value of the difference index indicates a higher likelihood of modification at the corresponding site.
 
 
@@ -87,6 +89,24 @@ The results file for `Hammerhead`:
   ```
 
 ​		A, T, G, C, a, t, g, c  is the number of reads mapped as the  A/T/G/C in the forward strand and T/A/C/G in the reverse strand.
+
+
+
+## Tool showcase
+
+To show the potential of Hammerhead to identify the modifications in the bacterium. Here, two datasets from  *E. coli* were used to call methylation including whole-genome sequencing (WGS) and whole-genome amplification (WGA) R10.4.1 simplex reads. The *dam* and *dcm* genes were found in the genome of the used *E. coli* strain. These two genes are associated with the G6mATC and C5mCWGG methylation.
+
+
+
+![alt text](figure_demo/Demo_2.png)
+
+The distribution of difference index for sites in *E. coli* genome. The WGA reads were used as a negative control due to the lack of inherent methylation information. Based on the background noise of WGA reads, the sites with a difference index over 0.35 were regarded as potential modification sites.
+
+
+
+![alt text](figure_demo/Demo_3.png)
+
+The motif of CCWGG and GATC was enriched using the sequence near these potential modification sites (-10 bp to +9 bp). 
 
 
 
