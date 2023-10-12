@@ -114,7 +114,8 @@ The motif of CCWGG and GATC was enriched using the sequence near these potential
 
 
 
-**Note:** two datasets are available at the XXX. Both datasets were basecalled using the modification aware model, which is available in the directory of modification_aware_basecalling_model.
+**Note:** Two datasets are available at the here. Both datasets were basecalled using the modification aware model, which is available in the directory of `modification_aware_basecalling_model`.
+
 
 
 
