@@ -106,7 +106,7 @@ The distribution of difference index for sites in *E. coli* genome. The WGA read
 
 ![alt text](figure_demo/Demo_3.png)
 
-The motif of CCWGG and GATC was enriched using the sequence near these potential modification sites (-10 bp to +9 bp). 
+The motif of C<u>C</u>WGG and G<u>A</u>TC was enriched using the sequence near these potential modification sites (-10 bp to +9 bp). 
 
 
 
