@@ -17,9 +17,9 @@ The pipeline utilizes a self-defined metric called the difference index to quant
 
 
 
-## Dependence
+## Installation
 
-To use this script, you'll need to install additional tools for read processing, including samtools and minimap2. The following commands can help you install dependencies.
+To use this tool, you'll need to install additional tools or packages for read processing, including samtools and minimap2. The following command can help you install dependencies.
 
 ```shell
 # test verison for dependences
@@ -29,6 +29,12 @@ To use this script, you'll need to install additional tools for read processing,
 conda install -c bioconda -c conda-forge minimap2 samtools
 ```
 
+To install this tool, please using the following command.
+```shell
+pip install Hammerhead-View
+```
+
+
 
 
 ## General usage
@@ -36,14 +42,14 @@ conda install -c bioconda -c conda-forge minimap2 samtools
 `Hammerhead` can be run using a simple command:
 
 ```
-python hammerhead.py --ref <reference> --read <input_fastq>
+hammerhead --ref <reference> --read <input_fastq>
 ```
 
 The help for `Hammerhead`:
 
 ```
-python hammerhead.py -h
-usage: hammerhead.py [-h] --ref  --read  [--cpu] [--cut] [--min_depth] [--min_depth_strand]
+hammerhead -h
+usage: hammerhead [-h] --ref  --read  [--cpu] [--cut] [--min_depth] [--min_depth_strand]
 
 A tool help to find the potential modification sites
 
