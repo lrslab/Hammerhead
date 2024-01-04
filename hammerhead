@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import subprocess
 import argparse
 from termcolor import colored
