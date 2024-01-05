@@ -25,8 +25,9 @@ To use this tool, you'll need to install additional tools or packages for read p
 # test verison for dependences
 # minimap2	2.17
 # samtools	1.17
+# bedtools	2.30.0
 
-conda install -c bioconda -c conda-forge minimap2 samtools
+conda install -c bioconda -c conda-forge minimap2 samtools bedtools
 ```
 
 To install this tool, please using the following command.
@@ -72,12 +73,18 @@ The results file for `Hammerhead`:
 ├── mapping.mpileup.txt
 ├── mapping.sort.bam
 ├── potential_modification_site_detail.bed
-└── potential_modification_site_detail.txt
+├── potential_modification_site_detail.txt
+├── enrichment.bed
+└── enrichment.fa
 ```
 
 - `mapping.mpileup.txt` - the mpileup file
 
 - `mapping.sort.bam` - the aligned bam file
+
+- `enrichment.bed` - the position of sequences around the potential modification sites used for the motif enrichment analysis. (-9 bp, +10 bp)
+
+- `enrichment.fa` - the sequences around the potential modification sites used for the motif enrichment analysis. (-9 bp, +10 bp)
 
 - `potential_modification_site_detail.bed` - the position for potential modification sites
 
