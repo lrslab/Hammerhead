@@ -1,7 +1,7 @@
 The `Hammerhead` can be easily run with the following command.
 
 ```shell
-python hammerhead.py --ref ecoli.fa --read test.fastq.gz --min_depth 5 --min_depth_strand 3
+hammerhead --ref ecoli.fa --read test.fastq.gz --min_depth 5 --min_depth_strand 3
 ```
 
 
