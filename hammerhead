@@ -24,7 +24,7 @@ def cmd_shell(cammands, string):
     else:
     	print(colored(err, "red"))
 
-def Preprocess():
+def reads_preprocess():
 	mapping = ["minimap2", "-ax", "map-ont", "-o", "mapping.sam", "-t", args.cpu, args.ref, args.read]
 	view = ["samtools", "view", "-bS", "-F4", "-@", args.cpu, "-o", "mapping.bam", "mapping.sam"]
 	sort = ["samtools", "sort", "-@", args.cpu, "-o", "mapping.sort.bam", "mapping.bam"]
@@ -79,6 +79,7 @@ def get_direction_info(cutoff):
 	header = "Chr\tPos\tDifference_index\tDif_A\tDif_T\tDif_G\tDif_C\tA,T,G,C,a,t,g,c"
 	with open("potential_modification_site_detail.txt", "w") as fo:
 		fbed =  open("potential_modification_site_detail.bed", "w")
+		fbed_1 =  open("enrichment.bed", "w")
 		fo.write(header + "\n")
 		with open("mapping.mpileup.txt") as ff:
 			for base in ff:
@@ -93,10 +94,22 @@ def get_direction_info(cutoff):
 					if calculate_distance(chrom, pos, string, float(cutoff)):
 						fo.write(calculate_distance(chrom, pos, string, float(cutoff)) + "\n")
 						fbed.write(str(chrom) + "\t" + str(int(pos) - 1) + "\t" + str(pos) + "\n")
+						fbed_1.write(str(chrom) + "\t" + str(int(pos) - 10) + "\t" + str(int(pos) + 10) + "\n")
 		ff.close()
 	fo.close()
 	fbed.close()
+	fbed_1.close()
+
+def get_enriched_motif_info():
+	enrichment = ["bedtools", "getfasta", "-bed", "enrichment.bed", "-fi", args.ref, "-fo", "enrichment.fa"]
+	for i, cmd in enumerate([enrichment]):
+		try:
+			subprocess.run(cmd, check=True)
+		except subprocess.CalledProcessError as e:
+			print(e.output)
+			raise Exception("Getting enrichment sequences failed.")
 
 if __name__=="__main__":
-	Preprocess()
+	reads_preprocess()
 	get_direction_info(args.cut)
+	get_enriched_motif_info()
