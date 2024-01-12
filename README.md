@@ -1,4 +1,7 @@
 # Hammerhead
+<a href="https://pypi.python.org/pypi/Hammerhead-View" rel="pypi">![PyPI](https://img.shields.io/pypi/v/Hammerhead-View?color=green) </a> 
+<a href="http://www.gnu.org/licenses/gpl-2.0.html" rel="license">![License](https://img.shields.io/pypi/l/primervcf?color=orange)</a>
+
 This project is designed to find potential modification sites.
 
 
