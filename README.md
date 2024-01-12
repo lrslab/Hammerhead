@@ -1,6 +1,6 @@
 # Hammerhead
 <a href="https://pypi.python.org/pypi/Hammerhead-View" rel="pypi">![PyPI](https://img.shields.io/pypi/v/Hammerhead-View?color=green) </a> 
-<a href="http://www.gnu.org/licenses/gpl-2.0.html" rel="license">![License](https://img.shields.io/pypi/l/primervcf?color=orange)</a>
+[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 This project is designed to find potential modification sites.
 
