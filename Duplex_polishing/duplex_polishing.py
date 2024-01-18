@@ -9,14 +9,13 @@ parser.add_argument("--read", type=str, metavar="", required=True, help="the pat
 parser.add_argument("--ref", type=str, metavar="", required=True, help="the bacterial assembly.")
 parser.add_argument("--cpu", type=str, metavar="", required=False, help="the CPU number. (default:10)", default="10")
 parser.add_argument("--bed", type=str, metavar="", required=False, help="the position of potential modification sites identified by Hammerhead.")
-
 args = parser.parse_args()
 
 def cmd_shell(cammands, string):
     process = Popen(cammands.split(' '), stdout=subprocess.DEVNULL, universal_newlines=True)
     process.wait()
     err = process.communicate()
-
+	
     if process.returncode == 0:
         pass
     else:
@@ -36,7 +35,6 @@ def duplex_mapping():
 		except subprocess.CalledProcessError as e:
 			print(e.output)
 			raise Exception("Data processing failed")	
-
 
 def stats_num(input_base, input_string):
 	data = {}
@@ -111,7 +109,6 @@ def stats_num(input_base, input_string):
 
 	return(mes)
 
-
 def loading_info():
 	outfile = open("corrected_site.bed", "w")
 	outfile.write("chr\tpos\tbase\tN_A\tN_T\tN_G\tN_C\tP_A\tP_T\tP_G\tP_C\tpolish_base\n")
@@ -138,7 +135,6 @@ def loading_info():
 						outfile.write(str(chr) + "\t" + str(pos) + "\t" + str(base) + "\t" + str(fre) + "\n") 
 				else:
 					pass
-
 	ff.close()
 	outfile.close()
 
