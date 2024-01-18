@@ -85,9 +85,9 @@ The results file for `Hammerhead`:
 
 - `mapping.sort.bam` - the aligned bam file
 
-- `enrichment.bed` - the position of sequences around the potential modification sites used for the motif enrichment analysis. (-9 bp, +10 bp)
+- `enrichment.bed` - the position of sequences around the potential modification sites used for the motif enrichment analysis (-9 bp, +10 bp).
 
-- `enrichment.fa` - the sequences around the potential modification sites used for the motif enrichment analysis. (-9 bp, +10 bp)
+- `enrichment.fa` - the sequences around the potential modification sites used for the motif enrichment analysis (-9 bp, +10 bp).
 
 - `potential_modification_site_detail.bed` - the position for potential modification sites
 
