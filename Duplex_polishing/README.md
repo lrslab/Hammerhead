@@ -51,7 +51,7 @@ bedtools maskfasta -fi tmp1.fasta -bed T.bed -mc T -fo tmp2.fasta
 bedtools maskfasta -fi tmp2.fasta -bed G.bed -mc G -fo tmp3.fasta
 bedtools maskfasta -fi tmp3.fasta -bed C.bed -mc C -fo final.fasta
 
-# remove the temporaryte files
+# remove the temporary files
 rm tmp1.fasta tmp2.fasta tmp3.fasta A.bed T.bed G.bed C.bed
 ```
 
@@ -63,9 +63,9 @@ The `final.fasta`  is the final polished genome assembler.
 
 To demonstrate the effectiveness of the polishing strategy in correcting substitution error types (`G2A` and `C2T`) caused by DNA modifications in assemblies, we present the substitution rates of 15 assemblies. These assemblies were generated using 40-， 50-, and 60-fold random subsampling *Acinetobacter pittii* R10.4.1 reads. We compared the results obtained from different polishing approaches with the reference chromosome.
 
-- Assembly with No Polishing
-- Assembly with Potential Modification Sites Polished with approximate 10-fold Duplex Reads
-- Assembly with 50-fold Next-Generation Sequencing (NGS) Reads
+- No Polishing
+- Polishing potential Modification Sites with approximate 10-fold Duplex Reads
+- Polishing total assemblies with 50-fold Next-Generation Sequencing (NGS) Reads
 
 
 
