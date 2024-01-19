@@ -63,9 +63,9 @@ The `final.fasta`  is the final polished genome assembler.
 
 To demonstrate the effectiveness of the polishing strategy in correcting substitution error types (`G2A` and `C2T`) caused by DNA modifications in assemblies, we present the substitution rates of 15 assemblies. These assemblies were generated using 40-， 50-, and 60-fold random subsampling *Acinetobacter pittii* R10.4.1 reads. We compared the results obtained from different polishing approaches with the reference chromosome.
 
-- No Polishing
-- Polishing potential Modification Sites with approximate 10-fold Duplex Reads
-- Polishing total assemblies with 50-fold Next-Generation Sequencing (NGS) Reads
+- No polishing
+- Polishing potential modification sites with approximate 10-fold duplex reads
+- Polishing total assemblies with 50-fold next-generation sequencing (NGS) reads
 
 
 
