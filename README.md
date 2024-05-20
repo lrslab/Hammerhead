@@ -11,7 +11,7 @@ This project is designed to find potential modification sites.
 
 ## Workflow
 
-<img src="figure_demo/Demo_1.png" width="800">
+<img src="figure_demo/Demo_1.png" width="750">
 
 The Hammerhead was developed specifically to identify potential modification sites using Nanopore R10.4.1 simplex reads. It leverages the strand-specific error pattern observed in these reads to detect modifications.
 
