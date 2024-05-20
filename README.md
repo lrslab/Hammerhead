@@ -9,7 +9,7 @@ This project is designed to find potential modifications.
 
 
 
-## Workflow
+# Workflow
 
 <img src="figure_demo/Demo_1.png" width="750" style="display: block; margin-left: auto; margin-right: auto;">
 
@@ -21,7 +21,7 @@ The pipeline utilizes a self-defined metric called the difference index to quant
 
 
 
-## Installation
+# Installation
 
 To use this tool, you'll need to install additional tools or packages for read processing, including samtools and minimap2. The following command can help you install dependencies.
 
@@ -43,7 +43,7 @@ pip install Hammerhead-View
 
 
 
-## Quick usage
+# Quick usage
 
 `Hammerhead` can be run in two different strategies to detect methylation:
 
@@ -61,7 +61,7 @@ hammerhead --ref genome.fa --read input.fastq --cpu 4 --method top
 
 
 
-## Tool showcase
+# Tool showcase
 
 To show the potential of Hammerhead to identify the modifications in the bacterium. Here, two datasets from  *E. coli* were used to call methylation including whole-genome sequencing (WGS) and whole-genome amplification (WGA) R10.4.1 simplex reads. The *dam* and *dcm* genes were found in the genome of the used *E. coli* strain. These two genes are associated with the G6mATC and C5mCWGG methylation.
 
