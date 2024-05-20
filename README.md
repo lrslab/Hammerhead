@@ -1,4 +1,4 @@
-<img src="figure_demo/Logo.png" width="800">
+<img src="figure_demo/Logo.png" width="720" style="display: block; margin-left: auto; margin-right: auto;">
 
 # Hammerhead
 <a href="https://pypi.python.org/pypi/Hammerhead-View" rel="pypi">![PyPI](https://img.shields.io/pypi/v/Hammerhead-View?color=green) </a>
