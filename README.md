@@ -1,19 +1,17 @@
+<img src="figure_demo/Logo.png" width="800">
+
 # Hammerhead
-
-
-
 <a href="https://pypi.python.org/pypi/Hammerhead-View" rel="pypi">![PyPI](https://img.shields.io/pypi/v/Hammerhead-View?color=green) </a>
 [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 This project is designed to find potential modification sites.
 
-<img src="figure_demo/Logo.png" width="360">
 
 
 
 ## Workflow
 
-<img src="figure_demo/Demo_1.png" width="900">
+<img src="figure_demo/Demo_1.png" width="800">
 
 The Hammerhead was developed specifically to identify potential modification sites using Nanopore R10.4.1 simplex reads. It leverages the strand-specific error pattern observed in these reads to detect modifications.
 
