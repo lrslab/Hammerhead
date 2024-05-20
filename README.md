@@ -1,4 +1,4 @@
-<img src="figure_demo/Logo.png" width="720" style="display: block; margin-left: auto; margin-right: auto;">
+<img src="figure_demo/Logo.png" width="700" style="display: block; margin-left: auto; margin-right: auto;">
 
 # Hammerhead
 <a href="https://pypi.python.org/pypi/Hammerhead-View" rel="pypi">![PyPI](https://img.shields.io/pypi/v/Hammerhead-View?color=green) </a>
@@ -11,7 +11,7 @@ This project is designed to find potential modifications.
 
 ## Workflow
 
-<img src="figure_demo/Demo_1.png" width="750">
+<img src="figure_demo/Demo_1.png" width="750" style="display: block; margin-left: auto; margin-right: auto;">
 
 The Hammerhead was developed specifically to identify potential modification sites using Nanopore R10.4.1 simplex reads. It leverages the strand-specific error pattern observed in these reads to detect modifications.
 
@@ -65,11 +65,11 @@ hammerhead --ref genome.fa --read input.fastq --cpu 4 --method top
 
 To show the potential of Hammerhead to identify the modifications in the bacterium. Here, two datasets from  *E. coli* were used to call methylation including whole-genome sequencing (WGS) and whole-genome amplification (WGA) R10.4.1 simplex reads. The *dam* and *dcm* genes were found in the genome of the used *E. coli* strain. These two genes are associated with the G6mATC and C5mCWGG methylation.
 
-<img src="figure_demo/Demo_2.png" width="700">
+<img src="figure_demo/Demo_2.png" width="750" style="display: block; margin-left: auto; margin-right: auto;">
 
 The distribution of difference index for sites in *E. coli* genome. The WGA reads were used as a negative control due to the lack of inherent methylation information. Based on the background noise of WGA reads, the sites with a difference index over 0.35 were regarded as potential modification sites.
 
-<img src="figure_demo/Demo_3.png" width="700">
+<img src="figure_demo/Demo_3.png" width="750" style="display: block; margin-left: auto; margin-right: auto;">
 
 The motif of C<u>C</u>WGG and G<u>A</u>TC was enriched using the sequences near these potential modification sites (-10 bp to +10 bp). 
 
@@ -85,7 +85,7 @@ To demonstrate the effectiveness of the polishing strategy based on the Hammerhe
 
 
 
-<img src="figure_demo/Demo_4.png" width="650">
+<img src="figure_demo/Demo_4.png" width="750" style="display: block; margin-left: auto; margin-right: auto;">
 
 # Documentation
 
