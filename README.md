@@ -61,6 +61,25 @@ hammerhead --ref genome.fa --read input.fastq --cpu 4 --method top
 
 
 
+# Example
+
+Here, we provide demo datasets for testing the `Hammerhead`. The following commands can help to download them.
+
+```shell
+wget https://figshare.com/ndownloader/files/46437190 -O ecoli.fa
+wget https://figshare.com/ndownloader/files/46437193 -O test.fastq.gz
+```
+
+Please run the following command to start data analysis!
+
+```shell
+hammerhead --ref ecoli.fa --read test.fastq.gz --min_depth 5 --min_depth_strand 3
+```
+
+**Note:** The arguments used in this command were for demonstration purposes only (the read coverage of data was too shallow) and may not reflect the optimal settings for your dataset. It is generally recommended to use the default arguments when you have sufficient read coverage, typically considered to be more than 50-fold coverage.
+
+
+
 # Tool showcase
 
 To show the potential of Hammerhead to identify the modifications in the bacterium. Here, two datasets from  *E. coli* were used to call methylation including whole-genome sequencing (WGS) and whole-genome amplification (WGA) R10.4.1 simplex reads. The *dam* and *dcm* genes were found in the genome of the used *E. coli* strain. These two genes are associated with the G6mATC and C5mCWGG methylation.
