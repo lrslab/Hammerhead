@@ -4,7 +4,7 @@
 <a href="https://pypi.python.org/pypi/Hammerhead-View" rel="pypi">![PyPI](https://img.shields.io/pypi/v/Hammerhead-View?color=green) </a>
 [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
-This project is designed to find potential modification sites.
+This project is designed to find potential modifications.
 
 
 
@@ -26,7 +26,7 @@ The pipeline utilizes a self-defined metric called the difference index to quant
 To use this tool, you'll need to install additional tools or packages for read processing, including samtools and minimap2. The following command can help you install dependencies.
 
 ```shell
-# test verison for dependences
+# test version for dependencies
 # minimap2	2.17
 # samtools	1.17
 # bedtools	2.30.0
@@ -67,7 +67,7 @@ To show the potential of Hammerhead to identify the modifications in the bacteri
 
 <img src="figure_demo/Demo_2.png" width="700">
 
-The distribution of difference index for sites in *E. coli* genompe. The WGA reads were used as a negative control due to the lack of inherent methylation information. Based on the background noise of WGA reads, the sites with a difference index over 0.35 were regarded as potential modification sites.
+The distribution of difference index for sites in *E. coli* genome. The WGA reads were used as a negative control due to the lack of inherent methylation information. Based on the background noise of WGA reads, the sites with a difference index over 0.35 were regarded as potential modification sites.
 
 <img src="figure_demo/Demo_3.png" width="700">
 
