@@ -7,7 +7,7 @@
 
 This project is designed to find potential modification sites.
 
-<img src="figure_demo/LOGO.png" width="360">
+<img src="figure_demo/Logo.png" width="360">
 
 
 
