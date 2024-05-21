@@ -6,7 +6,7 @@ from termcolor import colored
 from subprocess import Popen, PIPE
 import pandas as pd
 
-parser = argparse.ArgumentParser(description="A tool help to find the potential modification sites")
+parser = argparse.ArgumentParser(description="A tool helps to find the potential modification sites")
 parser.add_argument("--ref", type=str, metavar="", required=True, help="Input reference (FASTA)")
 parser.add_argument("--read", type=str, metavar="", required=True, help="Input reads (FASTQ)")
 parser.add_argument("--cpu", type=str, metavar="", required=False, help="CPU number (default:10)", default="10")
