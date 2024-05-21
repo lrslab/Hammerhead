@@ -1,10 +1,8 @@
-<img src="figure_demo/Logo.png" width="700" style="display: block; margin-left: auto; margin-right: auto;">
-
 # Hammerhead
 <a href="https://pypi.python.org/pypi/Hammerhead-View" rel="pypi">![PyPI](https://img.shields.io/pypi/v/Hammerhead-View?color=green) </a>
 [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
-This project is designed to find potential modifications.
+<img src="figure_demo/Logo.png" width="700" style="display: block; margin-left: auto; margin-right: auto;">
 
 
 
