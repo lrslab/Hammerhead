@@ -108,7 +108,7 @@ To demonstrate the effectiveness of the polishing strategy based on the Hammerhe
 
 # Documentation
 
-For more details about the usage of Hammerhead and results profiling, please refer to the documentation.
+For more details about the usage of Hammerhead and results profiling, please refer to the [documentation](https://hammerhead-documentation.readthedocs.io/en/latest/#).
 
 **All rights reserved.**
 
