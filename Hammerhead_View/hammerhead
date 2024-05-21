@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser(description="A tool help to find the potential 
 parser.add_argument("--ref", type=str, metavar="", required=True, help="Input reference (FASTA)")
 parser.add_argument("--read", type=str, metavar="", required=True, help="Input reads (FASTQ)")
 parser.add_argument("--cpu", type=str, metavar="", required=False, help="CPU number (default:10)", default="10")
-parser.add_argument("--method", type=str, metavar="", required=False, help="The strategy for detect potenital modification sites, cutoff or top (default:cutoff)", default="cutoff")
+parser.add_argument("--method", type=str, metavar="", required=False, help="The strategy for detecting potential modification sites, cutoff or top (default: cutoff)", default="cutoff")
 parser.add_argument("--cut", type=float, metavar="", required=False, help="Cutoff value [0, 1] (default:0.35)", default=0.35)
 parser.add_argument("--num", type=int, metavar="", required=False, help="Top N sites with the Difference index, sorted from the largest to the smallest (default:2000)", default=2000)
 parser.add_argument("--min_depth", type=int, metavar="", required=False, help="The minimum depth (default:50)", default=50)
