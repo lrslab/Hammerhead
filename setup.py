@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
   name="Hammerhead-View",
-  version="0.1.4",
+  version="0.2.0",
   author="Xudong Liu",
   author_email="xudongliu98@gmail.com",
   description="A tool designed to de novo find potential modification sites.",
