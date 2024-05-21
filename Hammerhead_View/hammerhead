@@ -28,7 +28,7 @@ def cmd_shell(cammands, string):
     	print(colored(err, "red"))
 
 def reads_preprocess():
-	ref_index = ["samtool", "faidx", args.ref]
+	ref_index = ["samtools", "faidx", args.ref]
 	mapping = ["minimap2", "-ax", "map-ont", "-o", "mapping.sam", "-t", args.cpu, args.ref, args.read]
 	view = ["samtools", "view", "-bS", "-F4", "-@", args.cpu, "-o", "mapping.bam", "mapping.sam"]
 	sort = ["samtools", "sort", "-@", args.cpu, "-o", "mapping.sort.bam", "mapping.bam"]
