@@ -35,6 +35,7 @@ conda install -c bioconda -c conda-forge minimap2==2.17 samtools==1.17 bedtools=
 
 To install this tool, please use the following command.
 ```shell
+# Now supporting Python version from 3.7 to 3.11
 pip install Hammerhead-View
 ```
 
@@ -107,6 +108,9 @@ To demonstrate the effectiveness of the polishing strategy based on the Hammerhe
 # Documentation
 
 For more details about the usage of Hammerhead and results profiling, please refer to the [documentation](https://hammerhead-documentation.readthedocs.io/en/latest/#).
+
+# Citation
+Liu X, Ni Y, Ye L, Guo Z, Tan L, Li J, Yang M, Chen S, Li R. Nanopore strand-specific mismatch enables de novo detection of bacterial DNA modifications. Genome Res. 2024 Oct 2:gr.279012.124. doi: 10.1101/gr.279012.124. Epub ahead of print. PMID: 39358016.
 
 **All rights reserved.**
 
